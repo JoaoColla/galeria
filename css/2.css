@@ -23,17 +23,3 @@ h1 {
     color: white;
     font-size: 26px;
 }
-
-#galeria{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 15px;
-    padding: 20px;
-}
-
-.foto img{
-    width:500px;
-    height: 300px;
-}
-
