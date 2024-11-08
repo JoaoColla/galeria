@@ -1,0 +1,22 @@
+#links {
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(0, 68, 9);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Ajuste o espaçamento entre os botões */
+}
+
+#links a {
+    display: inline-block; /* Faz com que o link se comporte como um botão */
+    color: rgb(12, 214, 12); /* Cor do texto */
+    background-color: rgb(0, 68, 9); /* Cor de fundo do botão */
+    padding: 15px 30px; /* Tamanho do botão */
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 12px; /* Bordas arredondadas */
+    font-weight: bold;
+    font-size: 25px;
+    transition: background-color 0.3s, transform 0.3s; /* Transição suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para o botão */
+}
